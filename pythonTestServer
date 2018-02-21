@@ -1,0 +1,14 @@
+1. install python and make sure everything is checked
+2. use the command line to cd to the directory of the
+	website you want to test
+3. 	# If Python version returned above is 3.X
+	python -m http.server
+	# If Python version returned above is 2.X
+	python -m SimpleHTTPServer
+4. Open the web browser and type in localhost:8000
+5. You're webpage should display and async should work!
+
+Optional: If something is already running on port: 8000
+		  port 8000 is the default so you can change it
+	python -m http.server 7800 (Python 3.x)
+	python -m SimpleHTTPServer 7800 (Python 2.x)
